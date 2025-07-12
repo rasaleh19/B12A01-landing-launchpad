@@ -56,6 +56,8 @@ body {
   padding: 12px 36px;
   font-weight: bold;
   font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 .nav2-btn {
   background: #4e47ff;
@@ -65,10 +67,19 @@ body {
   font-weight: bold;
   font-size: 16px;
   margin: 37px 0px 0px 0px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .nav-btn:hover {
-  background: #5856eb;
+  background-color: #45a049;
+  transform: scale(1.05); /* slightly grows the button */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* adds subtle shadow */
+}
+.nav2-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* slightly grows the button */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* adds subtle shadow */
 }
 
 /* Hero Section */
@@ -164,8 +175,14 @@ body {
   font-weight: 600;
   width: 229px;
   height: 48px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
-
+.action-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* slightly grows the button */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* adds subtle shadow */
+}
 .mockup-container {
   display: flex;
   justify-content: center;
@@ -335,8 +352,14 @@ body {
   font-weight: 600;
   width: 195px;
   height: 48px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
-
+.focus-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* slightly grows the button */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* adds subtle shadow */
+}
 .focus-mockup {
   display: flex;
   justify-content: center;
