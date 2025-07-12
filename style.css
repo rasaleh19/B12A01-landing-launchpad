@@ -8,7 +8,10 @@ body {
   font-family: "Inter", sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #ffffff;
+  background-color: #f1f5f9;
+}
+.container {
+  background-color: #f1f5f9;
 }
 .open-sans-railway {
   font-family: "Open Sans", sans-serif;
@@ -69,12 +72,6 @@ body {
 }
 
 /* Hero Section */
-.hero {
-  background: white;
-  padding: 8rem 0 4rem;
-  text-align: center;
-  color: #000;
-}
 
 .hero-content {
   max-width: 600px;
@@ -122,7 +119,7 @@ body {
 /* Action Section */
 .action-section {
   padding: 4rem 0;
-  background: white;
+  background: #f1f5f9;
 }
 
 .action-container {
@@ -210,7 +207,7 @@ body {
   padding: 4rem 0;
   background: #f1f5f9;
   text-align: center;
-  margin: 0px 160px 137px 140px;
+  margin: 0px 160px 0px 140px;
   padding: 50px 80px;
 }
 
@@ -250,7 +247,7 @@ body {
 /* Testimonials Section */
 .testimonials-section {
   padding: 4rem 0;
-  background: white;
+  background-color: #f1f5f9;
   text-align: center;
 }
 
@@ -258,7 +255,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  margin-top: 3rem;
+  margin: 0px 150px 0px 150px;
 }
 
 .testimonial-card {
@@ -318,16 +315,26 @@ body {
   background: #f1f5f9;
   text-align: center;
 }
-
+.focus-container {
+  margin: 150px;
+  background-color: white;
+  padding: 70px;
+}
+.focus-description {
+  font-weight: 300;
+  margin: 20px;
+  color: #252432;
+}
 .focus-btn {
-  background: #6366f1;
+  background: #4e47ff;
   color: white;
   border: none;
-  padding: 1rem 2rem;
-  border-radius: 8px;
+  padding: 12px 36px;
+  margin-bottom: 20px;
+  border-radius: 10px;
   font-weight: 600;
-  cursor: pointer;
-  margin-bottom: 3rem;
+  width: 195px;
+  height: 48px;
 }
 
 .focus-mockup {
@@ -337,8 +344,7 @@ body {
 
 /* Contact Section */
 .contact-section {
-  padding: 4rem 0;
-  background: white;
+  background-color: #f1f5f9;
 }
 
 .contact-content {
@@ -346,17 +352,23 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+  background-color: #f1f5f9;
+  margin: 0px 150px 150px 150px;
 }
 
 .contact-title {
-  font-size: 2.5rem;
+  font-size: 97px;
   font-weight: 700;
-  color: #1e293b;
-  line-height: 1.2;
+  color: #000000;
+}
+.form-caption {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
 }
 
 .contact-form {
-  background: #f8fafc;
+  background: #f1f5f9;
   padding: 2rem;
   border-radius: 12px;
 }
