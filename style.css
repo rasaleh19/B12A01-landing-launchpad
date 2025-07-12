@@ -211,39 +211,40 @@ body {
   background: #f1f5f9;
   text-align: center;
   margin: 0px 160px 137px 140px;
+  padding: 50px 80px;
 }
 
 .stats-title {
-  font-size: 1.5rem;
-  margin-bottom: 3rem;
-  color: #475569;
+  font-size: 38px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #252432;
 }
 
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
-  max-width: 800px;
   margin: 0 auto;
 }
 
 .stat-item {
-  background: white;
-  padding: 2rem;
+  background: #f1f5f9;
   border-radius: 12px;
 }
 
 .stat-number {
-  font-size: 3rem;
+  font-size: 80px;
   font-weight: 700;
-  color: #6366f1;
-  margin-bottom: 0.5rem;
+  color: #4e47ff;
+  margin-bottom: 24px;
+  width: 100%;
 }
 
 .stat-label {
-  font-size: 1.1rem;
-  color: #64748b;
-  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  font-weight: 400;
 }
 
 /* Testimonials Section */
